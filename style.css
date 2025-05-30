@@ -7,8 +7,10 @@
 /* header */
 
 header {
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
-    position: sticky; /* reste en haut même en scrollant */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    /* Ombre douce */
+    position: sticky;
+    /* reste en haut même en scrollant */
 }
 
 .navbar {
@@ -60,7 +62,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 150px;
+    padding: 80px 150px;
     background-color: #f3f4f6;
 }
 
