@@ -4,6 +4,8 @@
     font-family: roboto;
 }
 
+/* header */
+
 header {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
     position: sticky; /* reste en haut même en scrollant */
@@ -52,13 +54,18 @@ header {
     }
 }
 
+/* accueil */
+
 .accueil-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
-    padding: 60px 150px;
+    padding: 100px 150px;
     background-color: #f3f4f6;
+}
+
+.accueil-texte {
+    margin-right: 10px;
 }
 
 .accueil-slogan {
@@ -96,7 +103,7 @@ header {
 }
 
 #btn-contact {
-    background-color: white;
+    background-color: #f3f4f6;
     color: #2563eb;
 }
 
@@ -111,7 +118,7 @@ header {
 }
 
 .accueil-image img {
-    width: 1000px;
+    width: 1300px;
     max-width: 100%;
     border-radius: 20px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -120,4 +127,58 @@ header {
 
 .accueil-image img:hover {
     transform: scale(1.05);
+}
+
+/* apropos */
+
+.apropos-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 150px;
+}
+
+.apropos-image img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.apropos-image img:hover {
+    transform: scale(1.05);
+}
+
+.apropos-texte {
+    margin-left: 60px;
+}
+
+.apropos-titre {
+    font-size: 2rem;
+    margin: 10px 0;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+.apropos-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #1f2937;
+}
+
+.apropos-bouton button {
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid #2563eb;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    /* transition: background-color 0.3s ease; */
+}
+
+.apropos-bouton #btn-contact-apropos:hover {
+    background-color: #1e40af;
+    border-color: #1e40af;
 }
