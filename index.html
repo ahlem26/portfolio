@@ -26,6 +26,7 @@
         </nav>
     </header>
 
+    <!-- accueil -->
     <section id="accueil">
         <div class="accueil-container">
             <div class="accueil-texte">
@@ -46,7 +47,7 @@
         </div>
     </section>
 
-
+    <!-- apropos -->
     <section id="apropos">
         <div class="apropos-container">
             <div class="apropos-image">
@@ -76,54 +77,161 @@
         </div>
     </section>
 
-    <!-- Travail -->
+    <!-- Competences -->
+    <section id="Competences">
+        <div class="Competences-container">
+            <div class="Competences-titre">
+                <h1>Mes Compétences</h1>
+            </div>
+            <div class="MesCompetences">
+                <div class="Competences1">
+                    <p class="Competences1-titre">Développement Frontend</p>
+                    <p class="Competences1-texte">
+                        HTML5, CSS3, JavaScript, React, Vue.js, TypeScript, Sass, Design Responsive</p>
+                </div>
+                <div class="Competences1">
+                    <p class="Competences1-titre">Développement Backend</p>
+                    <p class="Competences1-texte">
+                        Node.js, Python, PHP, Express.js, Django, API REST, GraphQL</p>
+                </div>
+                <div class="Competences1">
+                    <p class="Competences1-titre">Base de données & Cloud</p>
+                    <p class="Competences1-texte">
+                        MySQL, PostgreSQL, MongoDB, AWS, Google Cloud, Firebase, Redis</p>
+                </div>
+                <div class="Competences1">
+                    <p class="Competences1-titre">Outils & Méthodes</p>
+                    <p class="Competences1-texte">
+                        Git, Docker, Webpack, VS Code, Figma, Agile, CI/CD</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- projets -->
     <section id="projets">
-        <h2>Mon travail</h2>
-        <p>Voici une démonstration de mes projets :</p>
-
-        <!-- Vidéo -->
-        <video controls width="480">
-            <source src="videoplayback.mp4" type="video/mp4" />
-            Votre navigateur ne supporte pas la vidéo.
-        </video>
-
-        <!-- Audio -->
-        <p>Extrait audio de présentation :</p>
-        <audio controls>
-            <source src="christmas-dreams-264888.mp3" type="audio/mpeg" />
-            Votre navigateur ne supporte pas l’audio.
-        </audio>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:monadresse@email.com">monadresse@email.com</a></p>
-    </section>
-
-    <section id="image">
-        <img src="img.jpg" alt="img">
-    </section>
-
-    <section>
-        <a href="https://www.google.com/?hl=fr">google</a>
+        <div class="projets-container">
+            <div class="projets-titre">
+                <h1>Mes Projets</h1>
+            </div>
+            <div class="MesProjets">
+                <div class="projets1">
+                    <div class="projets-image">
+                        <img id="img-projets" src="img-projet.png" alt="Image projets">
+                    </div>
+                    <div class="projets11">
+                        <div class="projets-texte">
+                            <p class="projets1-titre">Plateforme E-commerce</p>
+                            <p class="projets1-description">
+                                Une solution e-commerce complète avec frontend React, backend Node.js, et traitement
+                                intégré
+                                des
+                                paiements.</p>
+                        </div>
+                        <div class="langages">
+                            <p>React </p>
+                            <p>Node.js</p>
+                            <p>MongoDB</p>
+                            <p>Stripe</p>
+                        </div>
+                        <div class="projets-boutons">
+                            <button id="btn-projets1">Démo en ligne</button>
+                            <button id="btn-projets2">Voir le code</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="projets1">
+                    <div class="projets-image">
+                        <img id="img-projets" src="img-projet.png" alt="Image projets">
+                    </div>
+                    <div class="projets11">
+                        <div class="projets-texte">
+                            <p class="projets1-titre">Application de Gestion de Tâches</p>
+                            <p class="projets1-description">
+                                Une application collaborative de gestion de tâches avec mises à jour en temps réel,
+                                fonctionnalités de collaboration d'équipe et analyses avancées.</p>
+                        </div>
+                        <div class="langages">
+                            <p>Vue.js</p>
+                            <p>Socket.io</p>
+                            <p>Express</p>
+                            <p>PostgreSQL</p>
+                        </div>
+                        <div class="projets-boutons">
+                            <button id="btn-projets1">Démo en ligne</button>
+                            <button id="btn-projets2">Voir le code</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="projets1">
+                    <div class="projets-image">
+                        <img id="img-projets" src="img-projet.png" alt="Image projets">
+                    </div>
+                    <div class="projets11">
+                        <div class="projets-texte">
+                            <p class="projets1-titre">Tableau de Bord Météo</p>
+                            <p class="projets1-description">
+                                Une application météo responsive avec prévisions basées sur la localisation, cartes
+                                interactives
+                                et alertes météo personnalisées.</p>
+                        </div>
+                        <div class="langages">
+                            <p>JavaScript</p>
+                            <p>API Météo</p>
+                            <p>Chart.js</p>
+                            <p>PWA</p>
+                        </div>
+                        <div class="projets-boutons">
+                            <button id="btn-projets1">Démo en ligne</button>
+                            <button id="btn-projets2">Voir le code</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Contact -->
     <section id="contact">
-        <h2>Contactez-moi</h2>
-        <form>
-            <label for="nom">Nom :</label><br />
-            <input type="text" id="nom" name="nom" /><br />
+        <div class="contact-container">
+            <div class="contact-titre">
+                <h1>Me Contacter</h1>
+            </div>
+            <div class="MeContacter">
+                <div class="contact-texte">
+                    <p class="contact-titre">Travaillons ensemble !</p>
+                    <p class="contact-description">
+                        Je suis toujours intéressé par de nouvelles opportunités et des projets passionnants. Que vous
+                        ayez un projet en tête ou souhaitiez simplement discuter de développement web, n'hésitez pas à
+                        me contacter.
+                    </p>
+                    <p class="email">
+                        <a href="mailto:monadresse@email.com">monadresse@email.com</a>
+                    </p>
+                    <p class="tel">+1 (555) 123-4567</p>
+                    <p class="localisation">
+                        <a href="https://www.google.com/?hl=fr">San Francisco, CA</a>
+                    </p>
+                </div>
+                <div class="contactmoi">
+                    <form>
+                        <label for="nom">Nom :</label><br />
+                        <input type="text" id="nom" name="nom" /><br />
 
-            <label for="email">Email :</label><br />
-            <input type="email" id="email" name="email" /><br />
+                        <label for="email">Email :</label><br />
+                        <input type="email" id="email" name="email" /><br />
 
-            <label for="message">Message :</label><br />
-            <textarea id="message" name="message"></textarea><br />
+                        <label for="sujet">Sujet :</label><br />
+                        <input type="sujet" id="sujet" name="sujet" /><br />
 
-            <input type="submit" value="Envoyer" /><br />
-        </form>
+                        <label for="message">Message :</label><br />
+                        <textarea id="message" name="message"></textarea><br />
 
+                        <input type="submit" value="Envoyer le message" /><br />
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Pied de page -->

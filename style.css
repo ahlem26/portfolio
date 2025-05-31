@@ -67,7 +67,7 @@ header {
 }
 
 .accueil-texte {
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .accueil-slogan {
@@ -92,7 +92,7 @@ header {
 
 .accueil-boutons button {
     padding: 10px 20px;
-    border: 2px solid #2563eb;
+    border: 1px solid #2563eb;
     border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
@@ -173,7 +173,7 @@ header {
     background-color: #2563eb;
     color: white;
     padding: 10px 20px;
-    border: 2px solid #2563eb;
+    border: 1px solid #2563eb;
     border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
@@ -183,4 +183,147 @@ header {
 .apropos-bouton #btn-contact-apropos:hover {
     background-color: #1e40af;
     border-color: #1e40af;
+}
+
+/* mes competences */
+
+.Competences-container {
+    padding: 100px 150px;
+    background-color: #f3f4f6;
+}
+
+.Competences-titre {
+    font-size: 2rem;
+    margin: 10px 0;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+.MesCompetences {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.Competences1 {
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px 40px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.Competences1:hover {
+    transform: translateY(-5px);
+}
+
+.Competences1-titre {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #2563eb;
+    margin-bottom: 20px;
+}
+
+.Competences1-texte {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #1f2937;
+}
+
+/* mes projets */
+
+.projets-container {
+    padding: 100px 150px;
+}
+
+.projets-titre {
+    font-size: 2rem;
+    margin: 10px 0;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+.MesProjets {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.projets1 {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.projets1:hover {
+    transform: translateY(-5px);
+}
+
+.projets-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    /* ajuster une image à l’espace disponible */
+}
+
+.projets11 {
+    padding: 30px 40px;
+}
+
+.projets1-titre {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+}
+
+.projets1-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #6b7280;
+    margin-bottom: 1rem;
+}
+
+.langages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.langages p {
+    background-color: #f3f4f6;
+    border-radius: 0.25rem;
+    color: #6b7280;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+}
+
+.projets-boutons button {
+    padding: 10px 20px;
+    border: 1px solid #2563eb;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    /* transition: background-color 0.3s ease; */
+}
+
+#btn-projets1 {
+    background-color: #2563eb;
+    color: white;
+}
+
+#btn-projets2 {
+    background-color: white;
+    color: #2563eb;
+}
+
+.projets-boutons #btn-projets1:hover {
+    background-color: #1e40af;
+    border-color: #1e40af;
+}
+
+.projets-boutons #btn-projets2:hover {
+    background-color: #2563eb;
+    color: white;
 }
