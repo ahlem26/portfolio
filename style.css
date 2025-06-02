@@ -4,13 +4,23 @@
     font-family: roboto;
 }
 
+/* body {
+    padding-top: 80px;
+} */
+
 /* header */
 
 header {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     /* Ombre douce */
-    position: sticky;
-    /* reste en haut même en scrollant */
+    position: fixed;
+    /* Fixe le header en haut */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 1000;
+    /* reste au-dessus du contenu */
 }
 
 .navbar {
@@ -39,6 +49,10 @@ header {
     color: #1f2937;
 }
 
+.menu a:hover {
+    color: #2563eb;
+}
+
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -62,7 +76,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 80px 150px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 150px;
+    padding-bottom: 80px;
     background-color: #f3f4f6;
 }
 
